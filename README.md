@@ -1,10 +1,11 @@
-# Selenium: Marcación Creditos Colpatria Modulo Garantias
+# `Proyecto Selenium`
+## _`Marcación Creditos Colpatria Modulo Garantias`_
 
 _Proyecto de pruebas automatizadas con Selenium para validar aplicativo de marcar obligaciones (créditos) correspondientes a los segmentos de Colpatria Garantías y Expediente Virtual de acuerdo con bases suministrada por el Banco para que dichas obligaciones/créditos no puedan ser solicitados por página por ningún funcionario de Banco y sean marcadas como "CUSTODIA LEGAL HOLD"._
 
-## Pre-requisitos 📋
+## `Pre-requisitos` 📋
 
-_Se debe tener instalado python y el paquete pip adicional a esto se debe instalar los siguientes componentes mediante el archivo requirements.txt con el siguiente comando_ **pip install -r requirements.txt**
+_Se debe tener instalado python y el paquete pip adicional a esto se debe instalar los siguientes componentes mediante el archivo requirements.txt con el siguiente comando_ **`pip install -r requirements.txt`**
 
 * allure-python-commons
 * atomicwrites
@@ -40,8 +41,8 @@ _Se debe tener instalado python y el paquete pip adicional a esto se debe instal
 * zipp
 
 
-_Crear un archivo_ **Inicializar.py** _ubicado en la  siguiente ruta src\functions\ con la siguiente estructura y agregar los parametros de conectividad necesarios o configuraciones personalizadas que requiera el ambiente segun el equipo_
-```
+_Crear un archivo_ **`Inicializar.py`** _ubicado en la  siguiente ruta `src\functions\` con la siguiente estructura y agregar los parametros de conectividad necesarios o configuraciones personalizadas que requiera el ambiente segun el equipo_
+~~~
 import os
 
 class Inicializar():
@@ -79,7 +80,7 @@ class Inicializar():
 
 ```
 
-_Crear ambiente virtual en la raiz del proyecto con el comando_ **python -m virtualenv enviroment** ó **python -m venv + nombre del ambiente** _Seguido a esto activarlo ejecutando el archivo activate.bat ubicado en la ruta Enviroment/Scripts o ejecutando el siguiente comando en la terminal_ **./Enviroment/Scripts/activate.bat**
+_Crear ambiente virtual en la raiz del proyecto con el comando_ **`python -m virtualenv enviroment`** ó **`python -m venv enviroment`** _Seguido a esto activarlo ejecutando el archivo activate.bat ubicado en la ruta `enviroment/Scripts` o ejecutando el siguiente comando en la terminal_ **`./Enviroment/Scripts/activate.bat`**
  
 
 ## Comenzar 🚀
