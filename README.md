@@ -77,8 +77,7 @@ class Inicializar():
         RUTA_CHROME = 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'
         MAILUSER = ''
         MAILPASSWORD = ''
-
-```
+~~~
 
 _Crear ambiente virtual en la raiz del proyecto con el comando_ **`python -m virtualenv enviroment`** ó **`python -m venv enviroment`** _Seguido a esto activarlo ejecutando el archivo activate.bat ubicado en la ruta `enviroment/Scripts` o ejecutando el siguiente comando en la terminal_ **`./Enviroment/Scripts/activate.bat`**
  
