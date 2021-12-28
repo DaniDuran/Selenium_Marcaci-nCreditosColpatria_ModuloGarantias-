@@ -1,10 +1,22 @@
 # `Proyecto Selenium`
-## _`Marcación Creditos Colpatria Modulo Garantias`_
+
+**_`Índice`_**   
+1. [_`Marcación Creditos Colpatria Modulo Garantias`_](#id1)
+1. [_`Pre-requisitos`_](#id2)
+    1. [_`Librerías`_](#id1_1)  
+    1. [_`Archivo Inicializar.py`_](#id1_2)          
+1. [_`Comenzar`_](#id3)
+1. [_`Construido con`_](#id4)
+1. [_`Autores`_](#id5)
+1. [_`Expresiones de Gratitud`_](#id6)
+
+## _`Marcación Creditos Colpatria Modulo Garantias`_<a name="id1"></a>
 
 _Proyecto de pruebas automatizadas con Selenium para validar aplicativo de marcar obligaciones (créditos) correspondientes a los segmentos de Colpatria Garantías y Expediente Virtual de acuerdo con bases suministrada por el Banco para que dichas obligaciones/créditos no puedan ser solicitados por página por ningún funcionario de Banco y sean marcadas como "CUSTODIA LEGAL HOLD"._
 
-## `Pre-requisitos` 📋
+## `Pre-requisitos` 📋<a name="id2"></a>
 
+### `Librerías`<a name="id1_1"></a>
 _Se debe tener instalado python y el paquete pip adicional a esto se debe instalar los siguientes componentes mediante el archivo requirements.txt con el siguiente comando_ **`pip install -r requirements.txt`**
 
 * allure-python-commons
@@ -40,7 +52,7 @@ _Se debe tener instalado python y el paquete pip adicional a esto se debe instal
 * wcwidth
 * zipp
 
-
+### `Archivo Inicializar.py`<a name="id1_2"></a>
 _Crear un archivo_ **`Inicializar.py`** _ubicado en la  siguiente ruta `src\functions\` con la siguiente estructura y agregar los parametros de conectividad necesarios o configuraciones personalizadas que requiera el ambiente segun el equipo_
 ~~~
 import os
@@ -82,20 +94,22 @@ class Inicializar():
 _Crear ambiente virtual en la raiz del proyecto con el comando_ **`python -m virtualenv enviroment`** ó **`python -m venv enviroment`** _Seguido a esto activarlo ejecutando el archivo activate.bat ubicado en la ruta `enviroment/Scripts` o ejecutando el siguiente comando en la terminal_ **`./Enviroment/Scripts/activate.bat`**
  
 
-## Comenzar 🚀
+## Comenzar 🚀<a name="id3"></a>
 
 _Desde visual Studio code puedes ejecutar el archivo:_ **projectSeleniumInmofianza.py**
 _o activar el entorno virtua por consola y ejecutar el archivo antes mencionado_
 
 
-## Construido con 🛠️
+## Construido con 🛠️<a name="id4"></a>
 
 _El presente proyecto esta construido en lenguaje python con la libreria de webdriber de Selenium_
 
 
-## Autores ✒️
+## Autores ✒️<a name="id5"></a>
 
 * **Daniel Duran** - *Analista QA* - [DaniDuran](https://github.com/DaniDuran)
 
 
-## Expresiones de Gratitud 🎁
+## Expresiones de Gratitud 🎁<a name="id6"></a>
+
+
