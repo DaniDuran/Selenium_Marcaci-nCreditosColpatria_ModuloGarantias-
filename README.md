@@ -17,40 +17,24 @@ _Proyecto de pruebas automatizadas con Selenium para validar aplicativo de marca
 ## `Pre-requisitos` 📋<a name="id2"></a>
 
 ### `Librerías`<a name="id1_1"></a>
-_Se debe tener instalado python y el paquete pip adicional a esto se debe instalar los siguientes componentes mediante el archivo requirements.txt con el siguiente comando_ **`pip install -r requirements.txt`**
+_Se debe tener instalado python y el paquete pip adicional a esto se debe instalar los siguientes componentes mediante el archivo_ __requirements.txt__ _con el siguiente comando_ **`pip install -r requirements.txt`**
 
-* allure-python-commons
-* atomicwrites
-* attrs
-* backports.entry-points-selectable
-* behave
-* colorama
-* distlib
-* et-xmlfile
-* filelock
-* imap-tools
-* importlib-metadata
-* jdcal
-* more-itertools
-* openpyxl
-* packaging
-* parse
-* parse-type
-* platformdirs
-* pluggy
-* psycopg2
-* py
-* pyodbc
-* pyparsing
-* pytest
-* selenium
-* six
-* requests
-* unittest-xml-reporting
-* urllib3
-* virtualenv
-* wcwidth
-* zipp
+
+
+
+|                                   |             LIBRERIAS             |                                   |                                   |
+|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+|      allure-python-commons        |          atomicwrites             |               attrs               | backports.entry-points-selectable |
+|             behave                |             colorama              |               distlib             |            et-xmlfile             | 
+|            filelock               |            imap-tools             |         importlib-metadata        |              jdcal                | 
+|         more-itertools            |           platformdirs            |             parse-type            |            packaging              |
+|              parse                |            openpyxl               |               pluggy              |            psycopg2               |
+|              py                   |            pyodbc                 |               pyparsing           |              pytest               |
+|              parse                |            openpyxl               |               pluggy              |            psycopg2               |
+|              selenium             |            six                    |               requests            |      unittest-xml-reporting       |
+|              urllib3              |          virtualenv               |               wcwidth             |                 zipp              |
+
+
 
 ### `Archivo Inicializar.py`<a name="id1_2"></a>
 _Crear un archivo_ **`Inicializar.py`** _ubicado en la  siguiente ruta `src\functions\` con la siguiente estructura y agregar los parametros de conectividad necesarios o configuraciones personalizadas que requiera el ambiente segun el equipo_
@@ -100,16 +84,16 @@ _Desde visual Studio code puedes ejecutar el archivo:_ **projectSeleniumInmofian
 _o activar el entorno virtua por consola y ejecutar el archivo antes mencionado_
 
 
-## Construido con 🛠️<a name="id4"></a>
+## `Construido con` 🛠️<a name="id4"></a>
 
 _El presente proyecto esta construido en lenguaje python con la libreria de webdriber de Selenium_
 
 
-## Autores ✒️<a name="id5"></a>
+## `Autores` ✒️<a name="id5"></a>
 
 * **Daniel Duran** - *Analista QA* - [DaniDuran](https://github.com/DaniDuran)
 
 
-## Expresiones de Gratitud 🎁<a name="id6"></a>
+## `Expresiones de Gratitud` 🎁<a name="id6"></a>
 
 
