@@ -30,7 +30,6 @@ _Se debe tener instalado python y el paquete pip adicional a esto se debe instal
 |         more-itertools            |           platformdirs            |             parse-type            |            packaging              |
 |              parse                |            openpyxl               |               pluggy              |            psycopg2               |
 |              py                   |            pyodbc                 |               pyparsing           |              pytest               |
-|              parse                |            openpyxl               |               pluggy              |            psycopg2               |
 |              selenium             |            six                    |               requests            |      unittest-xml-reporting       |
 |              urllib3              |          virtualenv               |               wcwidth             |                 zipp              |
 
